@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ColoresComponent } from './colores/colores.component';
 import { TipografiaComponent } from './tipografia/tipografia.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { TablasComponent } from './tablas/tablas.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
       {
         path: 'formulario',
         component: FormularioComponent
+      },
+      {
+        path:'tablas',
+        component:TablasComponent
       }
     ]
   },
